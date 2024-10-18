@@ -1,14 +1,14 @@
 {
     "routes": [
         {
-          "route": "/swa-test/*",
+          "route": "/*",
           "allowedRoles": ["authenticated"]
         }
         ],
         "responseOverrides": {
           "401": {
             "statusCode": 302,
-            "redirect": "/.auth/login/aad/callback"
+            "redirect": "/swa-test/.auth/login/aad/callback"
           }
         },
     "auth": {
