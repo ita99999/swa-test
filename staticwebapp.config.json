@@ -1,0 +1,24 @@
+{
+    "auth": {
+      "identityProviders": {
+        "customOpenIdConnectProviders": {
+          "aadb2c": {
+            "registration": {
+              "clientIdSettingName": "PROVIDER_CLIENT_ID",
+              "clientCredential": {
+                "clientSecretSettingName": "PROVIDER_CLIENT_SECRET"
+              },
+              "openIdConnectConfiguration": {
+                "wellKnownOpenIdConfiguration": "https://mri-babyresearcher.b2clogin.com/mri-babyresearcher.onmicrosoft.com/B2X_1_swa-test/v2.0/.well-known/openid-configuration"
+              }
+            },
+            "login": {
+              "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+              "scopes": [],
+              "loginParameterNames": []
+            }
+          }
+        }
+      }
+    }
+  }
