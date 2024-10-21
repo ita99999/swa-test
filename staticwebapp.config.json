@@ -11,6 +11,11 @@
           "redirect": "/swa-test/.auth/login/aad"
         }
       },
+     "forwardingGateway": {
+        "allowedForwardedHosts": [
+          "www.demo.bebirisa.com/"
+       ]
+    }, 
     "auth": {
       "identityProviders": {
         "azureActiveDirectory": {
