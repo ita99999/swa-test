@@ -13,7 +13,7 @@
       },
      "forwardingGateway": {
         "allowedForwardedHosts": [
-          "www.demo.bebirisa.com/"
+          "www.demo.bebirisa.com"
        ]
     }, 
     "auth": {
